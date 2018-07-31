@@ -1,0 +1,296 @@
+html,body{
+	width: 100%;
+	height: 100%;
+}
+.navbar-default{
+	background-color: transparent;
+	margin-bottom: 0;
+	border: 0;
+	position: fixed;
+	width: 100%;
+}
+.nav.navbar-nav li a{
+	color: white;
+}
+.nav.navbar-nav li a:hover, .nav.navbar-nav li.current a{
+	color: yellow;
+}
+
+.img{
+	background-image: url("../img/header-bg.jpg");
+	display: table;
+	width: 100%;
+	height: 100%;		
+}
+.dingo{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;	
+}
+.dingo h1{
+	margin-top: 0;
+	color: white;
+	font-size: 59px;
+	margin-bottom: 20px;	
+	font-weight: bold;
+}
+.dingo h1 span{
+	color: #f2c926;
+}
+.dingo p{
+	font-size: 20px;
+	margin-bottom: 80px;
+	color: white;
+}
+button{
+	width: 140px;
+	height: 44px;
+	line-height: 44px;
+	background-color: #f0c30e;
+	color: #284c56;
+	border: 0;
+	border-radius: 7px;
+	margin-bottom: 0;
+}
+.bg{
+	background-color: #f4f4f4;
+	font-weight: bold;
+	padding-bottom: 101px;	
+}
+.about{
+	text-align: center;
+}
+.about h1{
+	padding-top: 116px;
+	font-weight: bold;
+	font-size: 37px;
+}
+hr.width{
+	width: 61px;
+	border-bottom: 3px solid #f3ca27;
+	margin-bottom: 33px;
+}
+.about p{
+	color: #5b777f;
+	margin-bottom: 55px;
+}
+.us h1{
+	font-size: 24px;
+	font-weight: bold;
+	color: #1c424d;
+	margin-bottom: 33px;
+}
+.us p{
+	font-size: 15px;
+	color: #5b777f;
+	margin-bottom: 47px;
+}
+.man-list ul{
+	list-style: none;
+	line-height: 30px;
+}
+.man-list ul li i{
+	color: #f3ca27;
+	margin-right: 4px;
+
+}
+.bg-2{
+	background-color: #032e3a;
+}
+.color h1{
+	color: white;
+}
+.color p{
+	color: white;
+}
+.font-area{
+	margin-bottom: 88px;
+	text-align: center;
+}
+.font-area i{
+	margin-bottom: 29px;
+	background-color: #032934;
+	color: #f3ca27;
+	font-size: 50px;
+	width: 98px;
+	height: 77px;
+	text-align: center;
+	line-height: 77px;
+	border-radius: 10px;
+}
+.font-area h1{
+	color: white;
+	font-size: 30px;
+	margin-bottom: 28px;
+}
+.font-area p{
+	color: white;
+	font-size: 16px;
+}
+.portfolio{
+	margin-bottom: 45px;
+	text-align: center;
+}
+.portfolio ul{
+	list-style: none;
+}
+.portfolio ul li{
+	display: inline-block;
+}
+.portfolio ul li a{
+	text-decoration: none;
+	margin-right: 23px;
+	background-color: #f5f5f5;
+	padding: 15px 21px 15px 21px;
+	display: block;
+	color: #4c4c4c;
+}
+.portfolio ul li a:hover{
+	color: white;
+	background-color: #1c424d;
+}
+.img-grit{
+	margin-bottom: 34px;
+
+}
+.back-img{
+	margin-top: 110px;
+	background-image: url("../img/statistics-bg.jpg")
+}
+.icon{
+	text-align: center;
+	color: white;
+	font-size: 60px;
+	margin-top: 105px;
+	margin-bottom: 104px;
+}
+.icon h1{
+	font-size: 50px;
+	color: #fdd835
+}	
+.icon p{
+	font-size: 20px;
+}
+.team{
+	text-align: center;
+}
+.team h1{
+	font-weight: bold;
+	font-size: 22px;
+}
+.team ul{
+	padding: 0;
+	list-style: none;
+}
+.team ul li {
+	display: inline;
+	color:#f3ca27;
+	margin-right: 20px;
+}
+.our{
+	text-align: center;
+	padding-top: 112px;
+}
+.our h1{
+	color: white;
+}
+.our p{
+	color: white;
+	font-size: 22px;
+	line-height: 40px;
+}
+.our h2 span{
+	color: #d3d3d3;
+	font-size: 22px;
+	font-weight: bold;
+}
+.our h2{
+	color: #d3d3d3;
+	padding-bottom: 144px;
+	font-size: 20px;
+}
+.icon-area{
+	text-align: center;
+}
+.icon-area i{
+	font-size: 30px;
+	color: #f3ca27;
+}
+.icon-area h1{
+	font-size: 15px;
+	color: #032731;
+	line-height: 20px;
+}
+.leave h1{
+	text-align: center;
+	margin-top: 41px;
+	font-size: 25px;
+}
+.form{
+	margin-top: 50px;
+	margin-bottom: 15px;
+}
+.form input{
+	width: 100%;
+	height: 33px;
+	line-height: 33px;
+	padding-left: 20px;
+}
+textarea{
+	width: 100%;
+	height: 94px;
+	padding-top: 15px;
+	padding-left: 15px;
+	margin-bottom: 32px;
+}
+.send{
+	text-align: center;
+	margin-bottom: 89px;
+}
+.send button{
+	width: 138px;
+	height: 39px;
+	line-height: 39px;
+	text-align: center;
+	background-color: #032731;
+	color: white;
+	font-size: 16px;
+	border: 2px solid yellow;
+}
+.icon-2{
+	text-align: center;
+	margin-bottom: 106px;
+}
+.icon-2 ul{
+	list-style: none;
+}
+.icon-2 ul li {
+	display: inline;
+	margin-right: 30px;
+	font-size: 27px;
+	color: #f3ca27;
+}
+footer{
+	background-color: #032731;
+}
+.last h1{
+	text-align: center;
+	font-size: 18px;
+	color: white;
+}
+
+.blue{
+	background-color: blue;
+}
+.red{
+	background-color: red;
+}
+
+.team img{
+	margin: 0 auto;
+}
+@media only screen and (max-width:892px){
+	.portfolio ul li{
+		display: block;
+	}
+}
